@@ -1,0 +1,23 @@
+
+body {
+    background-color: #fff;
+    color: #212121;
+}
+
+.list {
+    list-style: none;
+}
+
+.logo {
+    color: black;
+}
+
+.logo-web {
+    color: #2196F3;
+}
+
+
+/* цвет осн текста #212121 */
+/* акцент #2196F3 */
+/* вторичн цвет текста #757575 */
+/* цвет фона вторичн #F5F4FA */
