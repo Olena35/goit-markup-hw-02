@@ -1,23 +1,98 @@
+/* цвет осн текста #212121 */
+/* акцент #2196F3 */
+/* вторичн цвет текста #757575 */
+/* цвет фона вторичн #F5F4FA */
+
+:root {
+--primary-text-color: #757575;
+--title-text-color: #212121 ;
+--accent-color: #2196F3;
+--primary-bg-color: #F5F4FA;
+}
+
 
 body {
     background-color: #fff;
-    color: #212121;
+    color: var(--primary-text-color)
 }
+
+
+/* Link */
+
+.link {
+    text-decoration: none;
+}
+
+
+/* Feuture */
+
+.feature-list {
+    list-style: none;
+}
+
+.feature-list .title {
+    color: var(--title-text-color)
+}
+
+
+/* List */
 
 .list {
     list-style: none;
 }
 
+/* logo */
+
 .logo {
-    color: black;
+    color: #000;
+}
+
+.logo:hover {
+    color: var(--accent-color);
 }
 
 .logo-web {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 
-/* цвет осн текста #212121 */
-/* акцент #2196F3 */
-/* вторичн цвет текста #757575 */
-/* цвет фона вторичн #F5F4FA */
+/* Site nav */
+
+.site-nav .link {
+color: var(--accent-color);
+}
+
+.site-nav .link:hover, .site-nav .link:focus {
+    color: var(--title-text-color);
+}
+
+/* Hero */
+
+.hero-title {
+    color: var(--title-text-color);
+}
+
+
+/* Section */
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* Projects */
+
+.project-title {
+    color: var(--title-text-color);
+}
+
+/* Button portfolio */
+
+.button {
+    color: var(--title-text-color);
+    background-color: var(--primary-bg-color);
+}
+
+.button.pimary {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
