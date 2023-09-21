@@ -10,35 +10,18 @@
 --primary-bg-color: #F5F4FA;
 }
 
+/* Загальні css дані для обох html */
 
 body {
-    background-color: #fff;
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
+    background-color: #FFF;
+    font-family: Roboto;
 }
 
+/* Header */
 
-/* Link */
-
-.link {
-    text-decoration: none;
-}
-
-
-/* Feuture */
-
-.feature-list {
-    list-style: none;
-}
-
-.feature-list .title {
-    color: var(--title-text-color)
-}
-
-
-/* List */
-
-.list {
-    list-style: none;
+.site-nav .link {
+    color: var(--title-text-color);
 }
 
 /* logo */
@@ -55,16 +38,30 @@ body {
     color: var(--accent-color);
 }
 
+/* Contacts */
 
-/* Site nav */
-
-.site-nav .link {
-color: var(--accent-color);
+.contacts .link {
+    color: var(--primary-text-color);
 }
 
-.site-nav .link:hover, .site-nav .link:focus {
-    color: var(--title-text-color);
+.page-header :hover,
+.page-header :focus {
+    color: var(--accent-color);
 }
+
+/* Link */
+
+.link {
+    text-decoration: none;
+}
+
+/* List */
+
+.list {
+    list-style: none;
+}
+
+/* Стили для index.html */
 
 /* Hero */
 
@@ -72,6 +69,10 @@ color: var(--accent-color);
     color: var(--title-text-color);
 }
 
+.button-studio {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
 
 /* Section */
 
@@ -79,20 +80,39 @@ color: var(--accent-color);
     color: var(--title-text-color);
 }
 
+/* Features */
+
+.feature-list .title {
+    color: var(--title-text-color);
+}
+
+/* Team */
+
+.team-list .title {
+    color: var(--title-text-color);
+}
+
+.team-color {
+    background-color: var(--primary-bg-color);
+}
+
+
+
+
+
+/* Стили для portfolio */
+
 /* Projects */
+
+.project-list {}
 
 .project-title {
     color: var(--title-text-color);
 }
 
-/* Button portfolio */
+/* Button list for portfolio */
 
-.button {
+ .button-list button {
     color: var(--title-text-color);
     background-color: var(--primary-bg-color);
-}
-
-.button.pimary {
-    color: #FFFFFF;
-    background-color: #2196F3;
 }
