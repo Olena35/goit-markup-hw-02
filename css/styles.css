@@ -28,6 +28,7 @@ body {
 
 .logo {
     color: #000;
+    font-family: Raleway;
 }
 
 .logo:hover {
@@ -36,6 +37,7 @@ body {
 
 .logo-web {
     color: var(--accent-color);
+    font-family: Raleway;
 }
 
 /* Contacts */
@@ -99,6 +101,10 @@ body {
 
 /* Стили для portfolio */
 
+.portfolio-title {
+color: var(--title-text-color);
+}
+
 /* Projects */
 
 .project-list {}
@@ -109,7 +115,12 @@ body {
 
 /* Button list for portfolio */
 
- .button-list button {
+ .filter button {
     color: var(--title-text-color);
     background-color: var(--primary-bg-color);
+}
+
+.filter button:hover {
+    color: var(--primary-bg-color);
+    background-color: #2196F3;
 }
