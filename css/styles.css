@@ -34,6 +34,17 @@ body {
     text-decoration: none;
 }
 
+.studio,
+.portfolio {
+    color: #2196F3;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.28px;
+    letter-spacing: 0.28px;
+    text-decoration: none;
+}
+
 
 /* logo */
 
@@ -45,10 +56,6 @@ body {
     line-height: 1.38;
     letter-spacing: 0.78px;
     text-decoration: none;
-}
-
-.logo:hover {
-    color: var(--accent-color);
 }
 
 .logo-header {
@@ -72,8 +79,13 @@ body {
     text-decoration: none;
 }
 
-.page-header :hover,
-.page-header :focus {
+.site-nav :hover,
+.site-nav :focus {
+    color: var(--accent-color);
+}
+
+.contacts :hover,
+.contacts :focus {
     color: var(--accent-color);
 }
 
@@ -178,10 +190,6 @@ body {
     background-color: #2F303A;
 }
 
-.footer-section :hover,
-.footer-section :focus {
-    color: var(--accent-color);
-}
 
 .footer-adress {
     color: #FFF;
@@ -191,6 +199,7 @@ body {
     line-height: 1, 7;
     letter-spacing: 0.42px;
 }
+
 
 .footer-contacts a {
     color: rgba(255, 255, 255, 0.60);
@@ -213,7 +222,7 @@ body {
 /* Стили для portfolio */
 
 .portfolio-title {
-color: var(--title-text-color);
+opacity: 0;
 }
 
 /* Projects */
